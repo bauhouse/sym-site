@@ -22,15 +22,9 @@
 [submodule "extensions/activitylog"]
 	path = extensions/activitylog
 	url = git://github.com/rowan-lewis/activitylog.git
-[submodule "extensions/asdc"]
-	path = extensions/asdc
-	url = git://github.com/pointybeard/asdc.git
 [submodule "extensions/content_type_mappings"]
 	path = extensions/content_type_mappings
 	url = git://github.com/pointybeard/content_type_mappings.git
-[submodule "extensions/databasemanipulator"]
-	path = extensions/databasemanipulator
-	url = git://github.com/yourheropaul/databasemanipulator.git
 [submodule "extensions/dynamic_event_redirect"]
 	path = extensions/dynamic_event_redirect
 	url = git://github.com/makenosound/dynamic_event_redirect.git
@@ -40,21 +34,12 @@
 [submodule "extensions/entity_diagram"]
 	path = extensions/entity_diagram
 	url = git://github.com/nickdunn/entity_diagram.git
-[submodule "extensions/eventex"]
-	path = extensions/eventex
-	url = git://github.com/yourheropaul/eventex.git
 [submodule "extensions/globalparamloader"]
 	path = extensions/globalparamloader
 	url = git://github.com/carsten/globalparamloader.git
 [submodule "extensions/globalresourceloader"]
 	path = extensions/globalresourceloader
 	url = git://github.com/rowan-lewis/globalresourceloader.git
-[submodule "extensions/markitup"]
-	path = extensions/markitup
-	url = git://github.com/ahwayakchih/markitup.git
-[submodule "extensions/multiselect_to_checkboxes"]
-	path = extensions/multiselect_to_checkboxes
-	url = git://github.com/Demwunz/multiselect_to_checkboxes.git
 [submodule "extensions/numberfield"]
 	path = extensions/numberfield
 	url = git://github.com/pointybeard/numberfield.git
