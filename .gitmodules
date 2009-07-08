@@ -64,3 +64,6 @@
 [submodule "workspace/fluidgrids"]
 	path = workspace/fluidgrids
 	url = git://github.com/bauhouse/fluidgrids.git
+[submodule "extensions/export_install_file"]
+	path = extensions/export_install_file
+	url = git://github.com/bauhouse/export_install_file.git
