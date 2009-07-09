@@ -12,7 +12,7 @@
 	error_reporting(E_ALL ^ E_NOTICE);
 	set_error_handler('__errorHandler');
 
-	define('kVERSION', '2.0.3');
+	define('kVERSION', '2.0.4');
 	define('kINSTALL_ASSET_LOCATION', './symphony/assets/installer');	
 	define('kINSTALL_FILENAME', basename(__FILE__));
 	
@@ -155,9 +155,10 @@
 		$conf['symphony']['pagination_maximum_rows'] = '17';
 		$conf['symphony']['allow_page_subscription'] = '1';
 		$conf['symphony']['lang'] = 'en';
-		$conf['symphony']['version'] = '2.0.3';
+		$conf['symphony']['version'] = '2.0.4';
 		$conf['log']['archive'] = '1';
 		$conf['log']['maxsize'] = '102400';
+		$conf['general']['sitename'] = 'Symphony CMS';
 		$conf['image']['cache'] = '1';
 		$conf['image']['quality'] = '90';
 		$conf['database']['driver'] = 'mysql';
@@ -165,12 +166,10 @@
 		$conf['database']['character_encoding'] = 'utf8';
 		$conf['database']['runtime_character_set_alter'] = '1';
 		$conf['database']['disable_query_caching'] = 'no';
-		$conf['public']['display_event_xml_in_source'] = 'no';
-		$conf['general']['sitename'] = 'Symphony CMS';
-		$conf['region']['time_format'] = 'g:i a';
+		$conf['public']['display_event_xml_in_source'] = 'yes';
+		$conf['region']['time_format'] = 'H:i';
 		$conf['region']['date_format'] = 'd F Y';
-		$conf['content-type-mappings']['xml'] = 'text/xml; charset=utf-8';
-		$conf['content-type-mappings']['text'] = 'text/plain; charset=utf-8';
+		$conf['maintenance_mode']['enabled'] = 'no';
 	
 		return $conf;
 	
